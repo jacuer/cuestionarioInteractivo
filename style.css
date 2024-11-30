@@ -1,0 +1,78 @@
+
+    body {
+      background: linear-gradient(135deg, #1c1e26, #3b56e8); /* Estilo épico con un gradiente */
+      font-family: 'Orbitron', sans-serif; /* Fuente futurista */
+      color: #f4f4f9; /* Color claro */
+      text-align: center;
+    }
+
+    h2 {
+      font-family: 'Bungee Inline', cursive; /* Fuente tipo gaming */
+      color: #f4d03f; /* Dorado vibrante */
+      text-shadow: 0 0 10px #f4d03f, 0 0 20px #f4d03f;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+      border: 2px solid #f4f4f9;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+      padding: 20px;
+    }
+
+    #quiz-container h5 {
+      color: #f4f4f9;
+    }
+
+    button {
+      font-family: 'Times New Roman', Times, serif;
+      color: #fff;
+      background-color: #3b56e8;
+      border: 2px solid #f4d03f;
+      border-radius: 8px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.2s ease, box-shadow 0.2s;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+      background-color: #5c72f0;
+    }
+
+    button:active {
+      transform: scale(0.95);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    #start-btn {
+      background-color: #f44336; /* Rojo vibrante */
+      color: #fff;
+    }
+
+    #start-btn:hover {
+      background-color: #ff5722;
+    }
+
+    .score-container {
+      background-color: rgba(0, 0, 0, 0.6);
+      border: 3px solid #f4d03f;
+      border-radius: 15px;
+      padding: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .player-name {
+      font-size: 1.5rem;
+      color: #f4d03f;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.8rem;
+      color: #f4f4f9;
+      opacity: 0.8;
+    }
+  
